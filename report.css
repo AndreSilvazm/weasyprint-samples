@@ -60,10 +60,11 @@
   @top-center { content: none }
   @top-right { content: none }
 }
-@page :first {
+#cover {
   background: url(report-cover.jpg) no-repeat center;
   background-size: cover;
   margin: 0;
+  background-color: black;
 }
 @page chapter {
   background: #fbc847;
@@ -253,6 +254,8 @@ h4 {
 }
 #skills section h4 {
   margin: 0;
+  background-color: purple;
+
 }
 #skills section p {
   margin-top: 0;
